@@ -54,3 +54,13 @@ Relationships: one source may have many pickup requests; each pickup has one sou
 `RECEIVED -> REFUSED (BELOW_MINIMUM | CAPACITY_REASON)` or `RECEIVED -> ACCEPTED -> SCHEDULED(day)`.
 
 Only accepted and scheduled pickups contribute to collected monthly weight and certificate eligibility.
+
+## Shared neighborhood collection point proposal
+
+Nearby households may contribute small amounts to a shared collection point. The point is registered as the household-type source and the pooled material becomes one pickup request. The engine applies the 5 kg minimum to that combined request; contributions are not submitted as separate sub-5 kg pickup requests. One shared point counts as one stop. Pickup distance is measured from the depot to the registered point, while the vehicle-day total and hazard limits are checked against the pooled load.
+
+This is a proposed operating model for the learning demo, not a change to BR-04. Ask the instructor whether a shared point may be registered as a HOUSEHOLD source, and whether credit notes should go to the registered point or be divided among participating homes. Individual credit allocation is outside the current demo requirements.
+
+## Learning status and holdout data
+
+Files in this repository are practice materials, not the official submission. The community demo has 15 sources and 20 requests. Its five holdout requests are R016-R020 in `community_demo/requests.csv`; neither Windows hidden attributes nor Git ignore rules are used. The visible expected output covers R001-R015. Running the full request file displays all 20 calculated results, including the five practice cases.

@@ -1,0 +1,42 @@
+CREDIT NOTES
+R001 | A1-CP01 | 5 kg | credits Rs 400.00 - deductions Rs 15.00 - pickup Rs 0.00 = CREDIT Rs 385 | DAY 1
+R002 | A1-CP02 | 20 kg | credits Rs 900.00 - deductions Rs 30.00 - pickup Rs 0.00 = CREDIT Rs 870 | DAY 1
+R003 | B05 | 10 kg | credits Rs 1000.00 - deductions Rs 0.00 - pickup Rs 48.00 = CREDIT Rs 952 | DAY 1
+R004 | B01 | 200 kg | credits Rs 16300.00 - deductions Rs 0.00 - pickup Rs 0.00 = CREDIT Rs 16300 | DAY 1
+R005 | B03 | 250 kg | credits Rs 19000.00 - deductions Rs 0.00 - pickup Rs 0.00 = CREDIT Rs 19000 | DAY 1
+R006 | B02 | 300 kg | credits Rs 21500.00 - deductions Rs 0.00 - pickup Rs 0.00 = CREDIT Rs 21500 | DAY 1
+R007 | B04 | 365 kg | credits Rs 31300.00 - deductions Rs 0.00 - pickup Rs 0.00 = CREDIT Rs 31300 | DAY 1
+R008 | A1-CP03 | 60 kg | credits Rs 4200.00 - deductions Rs 150.00 - pickup Rs 0.00 = CREDIT Rs 4050 | DAY 2
+R009 | A2-CP01 | 14 kg | credits Rs 1120.00 - deductions Rs 0.00 - pickup Rs 36.00 = CREDIT Rs 1084 | DAY 1
+R010 | B06 | 45 kg | credits Rs 2650.00 - deductions Rs 0.00 - pickup Rs 144.00 = CREDIT Rs 2506 | DAY 2
+R011 | A2-CP02 | 80 kg | credits Rs 5500.00 - deductions Rs 225.00 - pickup Rs 0.00 = CREDIT Rs 5275 | DAY 2
+R012 | B03 | 300 kg | credits Rs 24500.00 - deductions Rs 0.00 - pickup Rs 0.00 = CREDIT Rs 24500 | DAY 2
+R013 | A2-CP03 | 35 kg | credits Rs 1500.00 - deductions Rs 150.00 - pickup Rs 0.00 = CREDIT Rs 1350 | DAY 2
+R014 | B05 | 90 kg | credits Rs 5400.00 - deductions Rs 0.00 - pickup Rs 48.00 = CREDIT Rs 5352 | DAY 2
+R015 | A3-CP01 | 5 kg | credits Rs 300.00 - deductions Rs 30.00 - pickup Rs 0.00 = CREDIT Rs 270 | DAY 2
+
+PICKUP SCHEDULE
+R001 | A1-CP01 | DAY 1 | ACCEPTED
+R002 | A1-CP02 | DAY 1 | ACCEPTED
+R003 | B05 | DAY 1 | ACCEPTED
+R004 | B01 | DAY 1 | ACCEPTED
+R005 | B03 | DAY 1 | ACCEPTED
+R006 | B02 | DAY 1 | ACCEPTED
+R007 | B04 | DAY 1 | ACCEPTED
+R008 | A1-CP03 | DAY 2 | ACCEPTED
+R009 | A2-CP01 | DAY 1 | ACCEPTED
+R010 | B06 | DAY 2 | ACCEPTED
+R011 | A2-CP02 | DAY 2 | ACCEPTED
+R012 | B03 | DAY 2 | ACCEPTED
+R013 | A2-CP03 | DAY 2 | ACCEPTED
+R014 | B05 | DAY 2 | ACCEPTED
+R015 | A3-CP01 | DAY 2 | ACCEPTED
+
+VEHICLE DAYS
+DAY 1 | 8 stops | 1164/1200 kg | 138/300 kg hazardous
+DAY 2 | 7 stops | 615/1200 kg | 117/300 kg hazardous
+
+MONTHLY SUMMARY
+Accepted pickups: 15
+Refused pickups: 0
+B03 | 550 kg | RECYCLING_CERTIFICATE

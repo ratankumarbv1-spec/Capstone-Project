@@ -1,0 +1,16 @@
+source_id,area_id,source_name,type,distance_km,homes_in_area,homes_covered
+A1-CP01,AREA-1,North Block collection point 1,HOUSEHOLD,10,200,67
+A1-CP02,AREA-1,North Block collection point 2,HOUSEHOLD,6.4,200,67
+A1-CP03,AREA-1,North Block collection point 3,HOUSEHOLD,8.2,200,66
+A2-CP01,AREA-2,Market Road collection point 1,HOUSEHOLD,12.1,210,70
+A2-CP02,AREA-2,Market Road collection point 2,HOUSEHOLD,9,210,70
+A2-CP03,AREA-2,Market Road collection point 3,HOUSEHOLD,5.5,210,70
+A3-CP01,AREA-3,Lake Road collection point 1,HOUSEHOLD,10,220,74
+A3-CP02,AREA-3,Lake Road collection point 2,HOUSEHOLD,7.5,220,73
+A3-CP03,AREA-3,Lake Road collection point 3,HOUSEHOLD,14.3,220,73
+B01,,Community school,BULK,7.2,,
+B02,,Engineering college,BULK,18,,
+B03,,Electronics factory,BULK,22.4,,
+B04,,Corporate office,BULK,11.6,,
+B05,,Electronics repair shop 1,BULK,13.2,,
+B06,,Electronics repair shop 2,BULK,21.4,,

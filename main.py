@@ -3,7 +3,7 @@ from pathlib import Path
 
 from ewaste_engine.engine import process
 from ewaste_engine.inputs import InputError, load_rates, load_requests, load_sources
-from ewaste_engine.reports import render
+from ewaste_engine.reports import render, render_friendly
 
 
 def parse_args() -> argparse.Namespace:
@@ -12,6 +12,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--rates", type=Path, required=True, help="CSV containing category,credit_per_kg,hazardous")
     parser.add_argument("--requests", type=Path, required=True, help="CSV containing request_id,source_id,items")
     parser.add_argument("--output", type=Path, help="Optional path to save the report (also prints it)")
+    parser.add_argument("--friendly", action="store_true", help="Use full source names and explain each output field")
     return parser.parse_args()
 
 
@@ -22,7 +23,7 @@ def main() -> int:
         rates = load_rates(args.rates)
         requests = load_requests(args.requests, rates, sources)
         results, days = process(requests, sources, rates)
-        report = render(results, days)
+        report = render_friendly(results, days, sources) if args.friendly else render(results, days)
         print(report)
         if args.output:
             args.output.write_text(report + "\n", encoding="utf-8")

@@ -4,9 +4,10 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Inches, Pt, RGBColor
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from pathlib import Path
 
 
-OUTPUT = "Project_Overview_and_Learning_Plan.docx"
+OUTPUT = Path(__file__).with_name("Project_Overview_and_Learning_Plan.docx")
 NAVY = "17365D"
 TEAL = "147D84"
 PALE = "EAF2F8"
@@ -72,7 +73,7 @@ for style_name, size in (("Title", 25), ("Heading 1", 16), ("Heading 2", 12)):
 # restrained running footer
 footer = section.footer.paragraphs[0]
 footer.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-f = footer.add_run("ECE-055  |  Learning brief  |  16 October 2026")
+f = footer.add_run("ECE-055  |  Learning brief  |  22 October 2026")
 f.font.name = "Aptos"
 f.font.size = Pt(8)
 f.font.color.rgb = RGBColor.from_string("617080")
@@ -178,15 +179,33 @@ doc.add_paragraph(
 )
 
 doc.add_heading("6. Learning status and decisions to confirm", level=1)
-bullet(doc, "All code and files created so far are practice prototypes. They are not the official submission and have not been uploaded to GitHub.")
+bullet(doc, "All code and files created so far are practice prototypes, not the official submission. Keep them separate from the official version once that work begins.")
 bullet(doc, "Python is our current preference because it is easier for us to read, understand, and explain; the assignment permits Python 3.10+.")
 bullet(doc, "CSV is a proposed input format, not yet confirmed against the instructor's Week 2 files.")
 bullet(doc, "We need to confirm whether item weight is total line weight or per-item weight, how exact output should be formatted, and how an indivisible request above a daily limit should be handled.")
 bullet(doc, "The brief says amounts are rounded to whole rupees; the exact midpoint rounding convention should be confirmed if sample outputs expose it.")
+bullet(doc, "The community demo uses shared household collection points: nearby homes pool small contributions before one pickup request is submitted. This does not remove BR-04; the combined request must still reach 5 kg.")
+bullet(doc, "The five holdout requests are not hidden computer files. They are R016-R020 in community_demo/requests.csv; only their expected answers are withheld from the visible answer file.")
 
-doc.add_heading("7. Planned next steps", level=1)
+doc.add_heading("7. Community collection demo", level=1)
+doc.add_paragraph(
+    "The larger learning demo has 15 sources: 9 shared household collection points across 3 residential areas and 6 BULK locations. "
+    "It contains 20 requests for one illustrative month. The first 15 have visible expected output; the last 5 are practice holdouts. "
+    "The values and rate card are synthetic examples, not measured local data."
+)
+doc.add_paragraph(
+    "The first seven visible requests total 1,150 kg over 7 stops. The next 60 kg request cannot fit that day, so it moves to Day 2. "
+    "Later, the scheduler may still place a request on an earlier day if all stop, weight, and hazardous limits fit. "
+    "The visible monthly summary also demonstrates a certificate when one source reaches 550 kg."
+)
+doc.add_paragraph(
+    "To read the terminal report more easily, run the command with --friendly. It prints full source names and labels each value. "
+    "The compact report remains available for comparison with the assignment's exact-output expectations."
+)
+
+doc.add_heading("8. Planned next steps", level=1)
 for text in [
-    "Continue learning the demo code line by line, starting with its data classes and CSV loading.",
+    "Continue learning the demo code line by line, starting with its data classes and CSV loading; practice reading the friendly report.",
     "Ask the instructor about the unresolved interpretations and obtain the provided sample files and visible expected outputs.",
     "Complete the Week 1 design: numbered business rules, entities and relationships, request state flow, and a short decision log.",
     "Only after the design is understood, create the real project separately from the learning demo.",

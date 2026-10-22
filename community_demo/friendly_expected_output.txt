@@ -1,0 +1,166 @@
+CREDIT NOTES
+========================================================================
+Request number: R001
+Pickup point: North Block collection point 1 (Area 1) [A1-CP01]
+Total collected weight: 5 kg
+Category credit: Rs 400.00
+Household hazardous-item deduction: Rs 15.00
+Pickup charge: Rs 0.00
+Net result: Rs 385 credit to the source
+Scheduled vehicle day: Day 1
+------------------------------------------------------------------------
+Request number: R002
+Pickup point: North Block collection point 2 (Area 1) [A1-CP02]
+Total collected weight: 20 kg
+Category credit: Rs 900.00
+Household hazardous-item deduction: Rs 30.00
+Pickup charge: Rs 0.00
+Net result: Rs 870 credit to the source
+Scheduled vehicle day: Day 1
+------------------------------------------------------------------------
+Request number: R003
+Pickup point: Electronics repair shop 1 [B05]
+Total collected weight: 10 kg
+Category credit: Rs 1000.00
+Household hazardous-item deduction: Rs 0.00
+Pickup charge: Rs 48.00
+Net result: Rs 952 credit to the source
+Scheduled vehicle day: Day 1
+------------------------------------------------------------------------
+Request number: R004
+Pickup point: Community school [B01]
+Total collected weight: 200 kg
+Category credit: Rs 16300.00
+Household hazardous-item deduction: Rs 0.00
+Pickup charge: Rs 0.00
+Net result: Rs 16300 credit to the source
+Scheduled vehicle day: Day 1
+------------------------------------------------------------------------
+Request number: R005
+Pickup point: Electronics factory [B03]
+Total collected weight: 250 kg
+Category credit: Rs 19000.00
+Household hazardous-item deduction: Rs 0.00
+Pickup charge: Rs 0.00
+Net result: Rs 19000 credit to the source
+Scheduled vehicle day: Day 1
+------------------------------------------------------------------------
+Request number: R006
+Pickup point: Engineering college [B02]
+Total collected weight: 300 kg
+Category credit: Rs 21500.00
+Household hazardous-item deduction: Rs 0.00
+Pickup charge: Rs 0.00
+Net result: Rs 21500 credit to the source
+Scheduled vehicle day: Day 1
+------------------------------------------------------------------------
+Request number: R007
+Pickup point: Corporate office [B04]
+Total collected weight: 365 kg
+Category credit: Rs 31300.00
+Household hazardous-item deduction: Rs 0.00
+Pickup charge: Rs 0.00
+Net result: Rs 31300 credit to the source
+Scheduled vehicle day: Day 1
+------------------------------------------------------------------------
+Request number: R008
+Pickup point: North Block collection point 3 (Area 1) [A1-CP03]
+Total collected weight: 60 kg
+Category credit: Rs 4200.00
+Household hazardous-item deduction: Rs 150.00
+Pickup charge: Rs 0.00
+Net result: Rs 4050 credit to the source
+Scheduled vehicle day: Day 2
+------------------------------------------------------------------------
+Request number: R009
+Pickup point: Market Road collection point 1 (Area 2) [A2-CP01]
+Total collected weight: 14 kg
+Category credit: Rs 1120.00
+Household hazardous-item deduction: Rs 0.00
+Pickup charge: Rs 36.00
+Net result: Rs 1084 credit to the source
+Scheduled vehicle day: Day 1
+------------------------------------------------------------------------
+Request number: R010
+Pickup point: Electronics repair shop 2 [B06]
+Total collected weight: 45 kg
+Category credit: Rs 2650.00
+Household hazardous-item deduction: Rs 0.00
+Pickup charge: Rs 144.00
+Net result: Rs 2506 credit to the source
+Scheduled vehicle day: Day 2
+------------------------------------------------------------------------
+Request number: R011
+Pickup point: Market Road collection point 2 (Area 2) [A2-CP02]
+Total collected weight: 80 kg
+Category credit: Rs 5500.00
+Household hazardous-item deduction: Rs 225.00
+Pickup charge: Rs 0.00
+Net result: Rs 5275 credit to the source
+Scheduled vehicle day: Day 2
+------------------------------------------------------------------------
+Request number: R012
+Pickup point: Electronics factory [B03]
+Total collected weight: 300 kg
+Category credit: Rs 24500.00
+Household hazardous-item deduction: Rs 0.00
+Pickup charge: Rs 0.00
+Net result: Rs 24500 credit to the source
+Scheduled vehicle day: Day 2
+------------------------------------------------------------------------
+Request number: R013
+Pickup point: Market Road collection point 3 (Area 2) [A2-CP03]
+Total collected weight: 35 kg
+Category credit: Rs 1500.00
+Household hazardous-item deduction: Rs 150.00
+Pickup charge: Rs 0.00
+Net result: Rs 1350 credit to the source
+Scheduled vehicle day: Day 2
+------------------------------------------------------------------------
+Request number: R014
+Pickup point: Electronics repair shop 1 [B05]
+Total collected weight: 90 kg
+Category credit: Rs 5400.00
+Household hazardous-item deduction: Rs 0.00
+Pickup charge: Rs 48.00
+Net result: Rs 5352 credit to the source
+Scheduled vehicle day: Day 2
+------------------------------------------------------------------------
+Request number: R015
+Pickup point: Lake Road collection point 1 (Area 3) [A3-CP01]
+Total collected weight: 5 kg
+Category credit: Rs 300.00
+Household hazardous-item deduction: Rs 30.00
+Pickup charge: Rs 0.00
+Net result: Rs 270 credit to the source
+Scheduled vehicle day: Day 2
+------------------------------------------------------------------------
+
+PICKUP SCHEDULE
+========================================================================
+Request R001 | North Block collection point 1 (Area 1) [A1-CP01] | Day 1
+Request R002 | North Block collection point 2 (Area 1) [A1-CP02] | Day 1
+Request R003 | Electronics repair shop 1 [B05] | Day 1
+Request R004 | Community school [B01] | Day 1
+Request R005 | Electronics factory [B03] | Day 1
+Request R006 | Engineering college [B02] | Day 1
+Request R007 | Corporate office [B04] | Day 1
+Request R008 | North Block collection point 3 (Area 1) [A1-CP03] | Day 2
+Request R009 | Market Road collection point 1 (Area 2) [A2-CP01] | Day 1
+Request R010 | Electronics repair shop 2 [B06] | Day 2
+Request R011 | Market Road collection point 2 (Area 2) [A2-CP02] | Day 2
+Request R012 | Electronics factory [B03] | Day 2
+Request R013 | Market Road collection point 3 (Area 2) [A2-CP03] | Day 2
+Request R014 | Electronics repair shop 1 [B05] | Day 2
+Request R015 | Lake Road collection point 1 (Area 3) [A3-CP01] | Day 2
+
+VEHICLE DAY TOTALS
+========================================================================
+Day 1: 8 stops; 1164 of 1,200 kg total capacity; 138 of 300 kg hazardous capacity
+Day 2: 7 stops; 615 of 1,200 kg total capacity; 117 of 300 kg hazardous capacity
+
+MONTHLY SUMMARY
+========================================================================
+Accepted requests: 15
+Refused requests: 0
+RECYCLING_CERTIFICATE: Electronics factory [B03] collected 550 kg

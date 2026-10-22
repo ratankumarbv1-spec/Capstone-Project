@@ -40,7 +40,13 @@ def load_sources(path: Path) -> dict[str, Source]:
                 raise InputError(f"{path}:{line}: distance_km must be a non-negative number")
             if source_id in result:
                 raise InputError(f"{path}:{line}: duplicate source_id {source_id}")
-            result[source_id] = Source(source_id, source_type, distance)
+            result[source_id] = Source(
+                source_id,
+                source_type,
+                distance,
+                (row.get("source_name") or "").strip(),
+                (row.get("area_id") or "").strip(),
+            )
         except ValueError as exc:
             if isinstance(exc, InputError):
                 raise

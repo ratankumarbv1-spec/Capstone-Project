@@ -6,6 +6,8 @@ class Source:
     source_id: str
     source_type: str
     distance_km: float
+    source_name: str = ""
+    area_id: str = ""
 
 
 @dataclass(frozen=True)

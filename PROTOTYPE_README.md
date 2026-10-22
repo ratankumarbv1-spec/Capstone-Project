@@ -2,6 +2,8 @@
 
 This is a small learning demo, not yet the final submission. It shows the shape of the program: CSV inputs go in, the rules are applied, and readable reports come out.
 
+The newer, larger community collection-point example is in `community_demo/`. This original demo remains unchanged as the smallest example to study first.
+
 ## Run it
 
 From the project folder:
